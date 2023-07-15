@@ -7,6 +7,7 @@
 /* style of header */
 header{
     background: rgba(255, 144, 14, 0.10);
+    padding-bottom: 40px;
 }
 
 /* nav of header */
@@ -65,9 +66,6 @@ header > nav > ul > li > a{
     color: #fff;
     font-size: 18px;
 }
-.banner{
-    
-}
 
 
 
@@ -80,7 +78,8 @@ header > nav > ul > li > a{
 
 
 
-/* 576 media query responsive */
+
+/* 576 (mobile) media query responsive */
 @media screen and (max-width: 576px){
     header > nav{
         flex-direction: column;
@@ -104,4 +103,22 @@ header > nav > ul > li > a{
     .banner > img{
         width: 100%;
     }
+}
+
+
+
+
+
+/* tablet of medium device media query style */
+@media screen and (min-width: 576px) and (max-width: 960px){
+    header{
+        width: 100%;
+    }
+    .title-description{
+        width: 100%;
+    }
+    .banner > img{
+        width: 100%;
+    }
+    
 }
