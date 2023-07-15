@@ -68,3 +68,40 @@ header > nav > ul > li > a{
 .banner{
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* 576 media query responsive */
+@media screen and (max-width: 576px){
+    header > nav{
+        flex-direction: column;
+        width: 100%;
+    }
+    header > nav > ul > li{
+        margin: 10px;
+    }
+    header > nav > ul > li > a{
+        font-size: 15px;
+    }
+    .title-description > h1{
+        width: 100%;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .title-description > button{
+        width: 190px;
+        margin: 20px auto;
+    }
+    .banner > img{
+        width: 100%;
+    }
+}
