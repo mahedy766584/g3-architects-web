@@ -56,7 +56,59 @@ header > nav > ul > li > a{
     font-weight: 400;
 }
 .title-description > button{
-    margin: 20px;
+    margin-top: 20px;
+    padding: 15px 35px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #FF900E;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+/* main section style  */
+main{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+/* teams-features-container style */
+.teams-features-container{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.teams-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.features{
+    padding-left: 70px;
+    padding-right: 70px;
+    align-items: start;
+}
+.teams-title{
+    font-size: 2.8rem;
+}
+.quick{
+    color: #727272;
+    font-weight: 500;
+}
+.features-text{
+    color: #FF900E;
+    font-weight: 700;
+}
+.team-description{
+    color: #727272;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 15px;
+}
+.features > button{
+    margin-top: 20px;
     padding: 15px 35px;
     border: none;
     outline: none;
@@ -75,10 +127,6 @@ header > nav > ul > li > a{
 
 
 
-
-
-
-
 /* 576 (mobile) media query responsive */
 @media screen and (max-width: 576px){
     header > nav{
@@ -87,9 +135,6 @@ header > nav > ul > li > a{
     }
     header > nav > ul > li{
         margin: 10px;
-    }
-    header > nav > ul > li > a{
-        font-size: 15px;
     }
     .title-description > h1{
         width: 100%;
