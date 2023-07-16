@@ -346,6 +346,13 @@ footer > p{
     .sponsors-logo{
         flex-wrap: wrap;
     }
+    footer{
+        width: 80%;
+    }
+    footer > p{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 
@@ -401,5 +408,11 @@ footer > p{
     .sponsors-logo{
         flex-wrap: wrap;
     }
-    
+    footer{
+        width: 80%;
+    }
+    footer > p{
+        width: 100%;
+        text-align: center;
+    }
 }
