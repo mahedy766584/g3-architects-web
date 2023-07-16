@@ -227,7 +227,28 @@ main{
 }
 
 
-
+/* Our Sponsors section */
+.Sponsors-content{
+    margin: 90px auto;
+}
+.sponsors-title{
+    text-align: center;
+}
+.sponsors-title > h1{
+    font-size: 2.8rem;
+}
+.sponsors-title > p{
+    width: 550px;
+    margin: 25px auto;
+}
+.sponsors-logo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sponsors-logo > img{
+    width: 100px;
+}
 
 
 
