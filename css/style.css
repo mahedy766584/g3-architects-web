@@ -288,7 +288,7 @@ main{
     .some-title{
         text-align: center;
     }
-    .awards-winnings-p{
+    .awards-winnings-p, .features-love-enjoy-section{
         flex-direction: column;
     }
     .awards-child{
@@ -298,6 +298,15 @@ main{
         width: 80%;
         text-align: center;
         margin: 0 auto;
+    }
+    .features-love-title-p{
+        width: 100%;
+    }
+    .features-love-enjoy-section-image > img{
+        width: 100%;
+    }
+    .experience{
+        position: absolute;
     }
 }
 
@@ -335,6 +344,18 @@ main{
     }
     .some-facts-section{
         margin: 30px;
+    }
+    .features-love-enjoy-section{
+        flex-direction: column;
+    }
+    .features-love-title-p{
+        width: 100%;
+    }
+    .features-love-enjoy-section-image > img{
+        width: 100%;
+    }
+    .experience{
+        position: absolute;
     }
     
 }
