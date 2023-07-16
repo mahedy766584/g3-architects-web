@@ -125,6 +125,62 @@ main{
     display: none;
 }
 
+/* features love and enjoy section start */
+.features-love-enjoy-section{
+    display: flex;
+    margin: 90px  auto;
+    gap: 30px;
+    justify-content: space-around;
+}
+.features-love-title-p{
+    width: 30%;
+}
+.head-title > h1{
+    font-size: 2.8rem;
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+}
+.head-title > p{
+    margin-top: 15px;
+    color: #727272;
+    font-weight: 400;
+    line-height: 24px;
+}
+.features-love-title-child > p{
+    color: #727272;
+    font-weight: 400;
+    line-height: 24px;
+}
+.features-love-title-child:not(.head-title){
+    margin-top: 35px;
+    padding: 15px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, .06);
+    border-radius: 8px;
+}
+.features-love-title-child > h3{
+    font-size: 26px;
+}
+.experience{
+    width: 200px;
+    height: 130px;
+    background-color: #FF900E;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -80px;
+    right: 100px;
+}
+.experience > p{
+    margin-top: 15px;
+}
+.experience > h1{
+    font-size: 3rem;
+}
+
 /* Some Facts section style */
 .some-facts-section{
     margin-top: 90px;
@@ -185,6 +241,7 @@ main{
 
 
 
+
 /* 576 (mobile) media query responsive */
 @media screen and (max-width: 576px){
     header > nav{
@@ -206,8 +263,6 @@ main{
     .banner > img{
         width: 100%;
     }
-
-
     /* teams-features-container */
     .teams-features-container{
         flex-direction: column-reverse;
