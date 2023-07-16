@@ -121,9 +121,7 @@ main{
 .banner{
     margin-top: 20px;
 }
-.hide{
-    display: none;
-}
+
 
 /* features love and enjoy section start */
 .features-love-enjoy-section{
@@ -249,7 +247,20 @@ main{
 .sponsors-logo > img{
     width: 100px;
 }
-
+footer{
+    width: 1200px;
+    height: 70px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > p{
+    font-weight: 400;
+    color: #727272;
+}
 
 
 
@@ -329,6 +340,12 @@ main{
     .experience{
         position: absolute;
     }
+    .sponsors-title > p{
+        width: 100%;
+    }
+    .sponsors-logo{
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -377,6 +394,12 @@ main{
     }
     .experience{
         position: absolute;
+    }
+    .sponsors-title > p{
+        width: 100%;
+    }
+    .sponsors-logo{
+        flex-wrap: wrap;
     }
     
 }
