@@ -125,6 +125,59 @@ main{
     display: none;
 }
 
+/* Some Facts section style */
+.some-facts-section{
+    margin-top: 90px;
+}
+.awards-winnings-p{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.some-title{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.some-facts-section-description{
+    width: 490px;
+    color: #727272;
+    margin-top: 15px;
+}
+.awards-child{
+    width: 170px;
+    height: 170px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.awards-child > img{
+    padding: 20px;
+}
+.awards-child > h2{
+    font-size: 2rem;
+    color: #131313e0;
+    letter-spacing: 1px;
+}
+.awards-child > h4{
+    color: #424242;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -177,7 +230,28 @@ main{
         width: 90%;
         margin: 0 auto;
     }
+    .some-title{
+        text-align: center;
+    }
+    .awards-winnings-p{
+        flex-direction: column;
+    }
+    .awards-child{
+        margin-top: 20px;
+    }
+    .some-facts-section-description{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
 }
+
+
+
+
+
+
+
 
 
 
@@ -200,6 +274,12 @@ main{
     }
     .features{
         margin-top: 20px;
+    }
+    .awards-winnings-p{
+        flex-wrap: wrap;
+    }
+    .some-facts-section{
+        margin: 30px;
     }
     
 }
